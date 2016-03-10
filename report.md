@@ -23,6 +23,7 @@ I refer to lecture notes. First i add in the iteration limit of 10(so that there
 
 <p><img alt="image.jpg" src="image.jpg"></p>
 
+<p><img alt="image_30.jpg" src="image_30.jpg"></p>
 
 How many non zero element in $\Sigma$?
 800 non zero elemetns for three colors.
