@@ -54,6 +54,7 @@ if __name__ == "__main__":
     A = np.array([[2,1,6], [8,3,2], [1,5,1]]).astype(float)
     b = np.array([9, 13, 7]).astype(float)
     sol = np.linalg.solve(A,b)
+    solve(A,b)
     print(sol)
     
     A = np.array([[6566, -5202, -4040, -5224, 1420, 6229],
