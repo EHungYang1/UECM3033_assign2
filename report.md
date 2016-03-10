@@ -33,7 +33,7 @@ these pictures from `task2.py`.
 What is a sparse matrix?
 In numerical analysis, a sparse matrix is a matrix in which most of the elements are zero. In contrast,a matrix where many elements are nonzero is called dense
 
-At first, i created a svd function. Then i read the image and the image is then compressed by keeping the first 30 non zero elements as sigma and set other non zero elements to zero Repeat the process by using green and blue matrix.
+At first, i created a svd function. Then i read the image and the image is then compressed by keeping the first 30 non zero elements as $\Sigma$ and set other non zero elements to zero. Repeat the process by using green and blue matrix. Then put in n=30 for lower resolution and n=200 for better resolution.
 
 -----------------------------------
 
