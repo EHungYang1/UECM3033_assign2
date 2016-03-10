@@ -1,8 +1,8 @@
 UECM3033 Assignment #2 Report
 ========================================================
 
-- Prepared by: ** Put your name here**
-- Tutorial Group: T2/T3
+- Prepared by: E Hung Yang
+- Tutorial Group:T3
 
 --------------------------------------------------------
 
@@ -10,12 +10,13 @@ UECM3033 Assignment #2 Report
 
 The reports, codes and supporting documents are to be uploaded to Github at: 
 
-[https://github.com/your_github_id/UECM3033_assign1](https://github.com/your_github_id/UECM3033_assign1)
+https://github.com/EHungYang1/UECM3033_assign2
 
 Explain your selection criteria here.
+SOR method is more preferred in solving linear system when the matrix is sparse matrix. In numerical analysis, a sparse matrix is a matrix in which most of the elements are zero. If the nonzeros is greater than half of the length of matrix A then i will use LU method. 
 
 Explain how you implement your `task1.py` here.
-
+I refer to lecture notes. First i add in the iteration limit of 10(so that there will not have infinite loop) and omega as 1.03(assuming in SOR method). LU mehod is by using the A=LU => Ax=LUx=b. It also define as Ly=b and Ux=y. Then i add in np.array and astype to make A and b as a matrix and converting them to float. Then put in np.linalg.solve(A,b) to solve the matrix. 
 ---------------------------------------------------------
 
 ## Task 2 -- SVD method and image compression
@@ -25,12 +26,13 @@ Put here your picture file (Lenna.png)
 ![Lenna.png](Lenna.png)
 
 How many non zero element in $\Sigma$?
+800 non zero elemetns for three colors.
 
 Put here your lower and better resolution pictures. Explain how you generate
 these pictures from `task2.py`.
 
 What is a sparse matrix?
-
+In numerical analysis, a sparse matrix is a matrix in which most of the elements are zero. In contrast,a matrix where many elements are nonzero is called dense
 
 -----------------------------------
 
